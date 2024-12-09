@@ -24,7 +24,7 @@ const Image = (className) => {
         className={`btn btn-active btn-primary  mt-5  ${className}`}
         onClick={showHide}
       >
-        show
+        {!visible ? "show" : "hide"}
       </button>
     </div>
   );
